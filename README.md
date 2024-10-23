@@ -72,14 +72,14 @@ Each section of the jupyter notebook for this project aimed at investigating spe
 
 ## 2. How are in-demand skills trending for Data Engineers ?
 
-![Trending Top Skills for Data Engineers in the US](images\Top_5_Skills_Trend_for_Data_Engineers.png)
+![Trending Top Skills for Data Engineers in the US](images/Top_5_Skills_Trend_for_Data_Engineers.png)
 
 ### Insights:
 
 
 ## 3. How well do jobs and skills pay for Data Engineers ?
 
-![Salary distrubution in the US for the top 6 jobs](images\Salary_Distrubution_US_top_6_jobs.png)  
+![Salary distrubution in the US for the top 6 jobs](images/Salary_Distrubution_US_top_6_jobs.png)  
 
 #### Insights
 
