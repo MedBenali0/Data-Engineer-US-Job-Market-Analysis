@@ -63,8 +63,7 @@ Each section of the jupyter notebook for this project aimed at investigating spe
 
 ![The top 5 skills requested in job postings in the US](images/Top_5_Skills_Requested_in_job_postings.png)
 
-
-### Insights:
+#### Insights:
 
 - SQL is the most sought-after skill among all three roles, featured in 68% of Data Engineer job postings and 51% for Data Analysts and Data Scientists.
 - Data Engineers need more specialized technical expertise, such as AWS, Azure, and Spark, while Data Analysts and Data Scientists are expected to be skilled in broader data management and analysis tools like Excel and Tableau.
@@ -74,7 +73,7 @@ Each section of the jupyter notebook for this project aimed at investigating spe
 
 ![Trending Top Skills for Data Engineers in the US](images/Top_5_Skills_Trend_for_Data_Engineers.png)
 
-### Insights:
+#### Insights:
 - SQL and Python are the most consistently demanded skills, with SQL leading throughout the year, hovering around 70%, and Python closely following at approximately 60-65%. Both skills exhibit slight fluctuations but remain dominant.
 - AWS shows a moderate but consistent demand, with the percentage fluctuating between 40% and 50%.
 - Azure and Spark have relatively lower demand, each staying below 40%, with Spark showing a slight increase towards the end of the year.
