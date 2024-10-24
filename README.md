@@ -25,7 +25,7 @@ Below are the questions I want to answer in my project:
 
 This section outlines the steps taken to prepare the data for analysis, ensuring accuracy and usability.
 
-## Import & Clean Up Data
+### Import & Clean Up Data
 
 I start by importing necessary libraries and loading the dataset, followed by initial data cleaning tasks to ensure data quality.
 
@@ -46,7 +46,7 @@ df['job_posted_date']=pd.to_datetime(df.job_posted_date)
 df['job_skills']=df.job_skills.apply(lambda skill_list: ast.literal_eval(skill_list) if pd.notna(skill_list) else skill_list)
 ```
 
-## Filter US Jobs
+### Filter US Jobs
 
 To focus my analysis on the U.S. job market, I applied this filter to the dataset, narrowing down to roles based in the United States.
 
@@ -75,7 +75,9 @@ Each section of the jupyter notebook for this project aimed at investigating spe
 ![Trending Top Skills for Data Engineers in the US](images/Top_5_Skills_Trend_for_Data_Engineers.png)
 
 ### Insights:
-
+- SQL and Python are the most consistently demanded skills, with SQL leading throughout the year, hovering around 70%, and Python closely following at approximately 60-65%. Both skills exhibit slight fluctuations but remain dominant.
+- AWS shows a moderate but consistent demand, with the percentage fluctuating between 40% and 50%.
+- Azure and Spark have relatively lower demand, each staying below 40%, with Spark showing a slight increase towards the end of the year.
 
 ## 3. How well do jobs and skills pay for Data Engineers ?
 
@@ -83,26 +85,20 @@ Each section of the jupyter notebook for this project aimed at investigating spe
 
 #### Insights
 
-- There's a significant variation in salary ranges across different job titles. Data Scientist positions tend to have the highest salary potential, with up to $600K, indicating the high value placed on advanced data skills and experience in the industry.
-
-- Senior Data Engineer and Senior Data Scientist roles show a considerable number of outliers on the higher end of the salary spectrum, suggesting that exceptional skills or circumstances can lead to high pay in these roles. In contrast, Data Analyst roles demonstrate more consistency in salary, with fewer outliers.
-
-- The median salaries increase with the seniority and specialization of the roles. Senior roles (Senior Data Scientist, Senior Data Engineer) not only have higher median salaries but also larger differences in typical salaries, reflecting greater variance in compensation as responsibilities increase.
+- Senior Data Scientist and Senior Data Engineer have the highest median salaries, both centered around $150k-$175k, with Senior Data Scientists showing the widest salary range.
+- Data Engineers and Data Scientists have similar salary distributions, with median salaries near $100k-$125k. However, Data Scientists show more salary variation with higher outliers compared to Data Engineers.
+- Data Analysts, particularly at the non-senior level, have the lowest salary range, with a median near $75k. The range is narrower, and there are fewer high-end outliers, suggesting more consistency in pay but lower maximum earning potential compared to the other roles.
 
 ### Highest Paid & Most Demanded Skills for Data Engineers
 
 Next, I narrowed my analysis and focused only on data engineer roles. I looked at the highest-paid skills and the most in-demand skills. I used two bar charts to showcase these.
 
-#### Results
-
 ![The Highest Paid & Most In-Demand Skills for Data Engineers in the US](images/Highest_Paid_Most_Demand_Skills_Data_Engineers.png)
 
 #### Insights:
 
-- The top graph shows specialized technical skills like `mongo`, `vue`, and `solidity` are associated with higher salaries, some reaching up to $200K, suggesting that advanced technical proficiency can increase earning potential.
-
+- The top graph shows specialized technical skills like `MongoDB`, `Vue`, and `Solidity` are associated with higher salaries, some reaching up to $200K, suggesting that advanced technical proficiency can increase earning potential.
 - The bottom graph highlights that foundational skills like `Kafka`, `NoSQL`, and `Spark` are the most in-demand, even though they may not offer the highest salaries. This demonstrates the importance of these core skills for employability in data engineering roles.
-
 - There's a clear distinction between the skills that are highest paid and those that are most in-demand. Data Engineers aiming to maximize their career potential should consider developing a diverse skill set that includes both high-paying specialized skills and widely demanded foundational skills.
 
 ## 4. What are the most optimal skills to learn for Data Engineers ?
@@ -111,6 +107,9 @@ Next, I narrowed my analysis and focused only on data engineer roles. I looked a
 
 #### Insights:
 
+- Kafka, Airflow, and Scala offer the highest median salaries (around $140K-$145K), but they appear in fewer job postings (under 20%), indicating they are specialized skills that command high pay but are less frequently required.
+- While their median salaries are lower (around $130K), Python and SQL are the most in-demand skills, appearing in over 70% of job postings.
+- AWS, Snowflake, and Spark provide a balance between demand and pay, with moderate demand (30-50% of jobs) and median salaries ranging from $130K to $137K.
 
 # Project Insights
 
