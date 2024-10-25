@@ -65,18 +65,18 @@ Each section of the jupyter notebook for this project aimed at investigating spe
 
 #### Insights:
 
-- SQL is the most sought-after skill among all three roles, featured in 68% of Data Engineer job postings and 51% for Data Analysts and Data Scientists.
-- Data Engineers need more specialized technical expertise, such as AWS, Azure, and Spark, while Data Analysts and Data Scientists are expected to be skilled in broader data management and analysis tools like Excel and Tableau.
-- Python is a highly valued skill across all three positions, with the greatest demand for Data Scientists (72%).
+- `SQL` is the most sought-after skill among all three roles, featured in 68% of Data Engineer job postings and 51% for Data Analysts and Data Scientists.
+- Data Engineers need more specialized technical expertise, such as `AWS`, `Azure`, and `Spark`, while Data Analysts and Data Scientists are expected to be skilled in broader data management and analysis tools like `Excel` and `Tableau`.
+- `Python` is a highly valued skill across all three positions, with the greatest demand for Data Scientists (72%).
 
 ## 2. How are in-demand skills trending for Data Engineers ?
 
 ![Trending Top Skills for Data Engineers in the US](images/Top_5_Skills_Trend_for_Data_Engineers.png)
 
 #### Insights:
-- SQL and Python are the most consistently demanded skills, with SQL leading throughout the year, hovering around 70%, and Python closely following at approximately 60-65%. Both skills exhibit slight fluctuations but remain dominant.
-- AWS shows a moderate but consistent demand, with the percentage fluctuating between 40% and 50%.
-- Azure and Spark have relatively lower demand, each staying below 40%, with Spark showing a slight increase towards the end of the year.
+- `SQL` and `Python` are the most consistently demanded skills, with `SQL` leading throughout the year, hovering around 70%, and `Python` closely following at approximately 60-65%. Both skills exhibit slight fluctuations but remain dominant.
+- `AWS` shows a moderate but consistent demand, with the percentage fluctuating between 40% and 50%.
+- `Azure` and `Spark` have relatively lower demand, each staying below 40%, with Spark showing a slight increase towards the end of the year.
 
 ## 3. How well do jobs and skills pay for Data Engineers ?
 
@@ -96,8 +96,8 @@ Next, I narrowed my analysis and focused only on data engineer roles. I looked a
 
 #### Insights:
 
-- The top graph shows specialized technical skills like `MongoDB`, `Vue`, and `Solidity` are associated with higher salaries, some reaching up to $200K, suggesting that advanced technical proficiency can increase earning potential.
-- The bottom graph highlights that foundational skills like `Kafka`, `NoSQL`, and `Spark` are the most in-demand, even though they may not offer the highest salaries. This demonstrates the importance of these core skills for employability in data engineering roles.
+- `Mongo` and `Vue` lead in pay, with a median salary nearing $200K, making them the highest-paid skills for data engineers, although they do not appear in the list of the most in-demand skills.
+- `Kafka` and `NoSQL` dominate demand, appearing in the highest percentage of job postings, though their median salaries ($125K-$150K) are lower compared to the highest-paid skills.
 - There's a clear distinction between the skills that are highest paid and those that are most in-demand. Data Engineers aiming to maximize their career potential should consider developing a diverse skill set that includes both high-paying specialized skills and widely demanded foundational skills.
 
 ## 4. What are the most optimal skills to learn for Data Engineers ?
@@ -106,9 +106,9 @@ Next, I narrowed my analysis and focused only on data engineer roles. I looked a
 
 #### Insights:
 
-- Kafka, Airflow, and Scala offer the highest median salaries (around $140K-$145K), but they appear in fewer job postings (under 20%), indicating they are specialized skills that command high pay but are less frequently required.
-- While their median salaries are lower (around $130K), Python and SQL are the most in-demand skills, appearing in over 70% of job postings.
-- AWS, Snowflake, and Spark provide a balance between demand and pay, with moderate demand (30-50% of jobs) and median salaries ranging from $130K to $137K.
+- `Kafka`, `Airflow`, and `Scala` offer the highest median salaries (around $140K-$145K), but they appear in fewer job postings (under 20%), indicating they are specialized skills that command high pay but are less frequently required.
+- While their median salaries are lower (around $130K), `Python` and `SQL` are the most in-demand skills, appearing in over 70% of job postings.
+- `AWS`, `Snowflake`, and `Spark` provide a balance between demand and pay, with moderate demand (30-50% of jobs) and median salaries ranging from $130K to $137K.
 
 # Project Insights
 
